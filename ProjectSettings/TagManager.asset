@@ -1,0 +1,75 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Laser
+  - enemy
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - Bullet
+  - Agent
+  - Hittable
+  - Player
+  - Enemy
+  - Square
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Ground
+    uniqueID: 4038863019
+    locked: 0
+  - name: Trees
+    uniqueID: 1662131495
+    locked: 0
+  - name: Obstacles
+    uniqueID: 367436045
+    locked: 0
+  - name: Enemies
+    uniqueID: 4166575631
+    locked: 0
+  - name: Player
+    uniqueID: 3276455707
+    locked: 0
+  - name: Items
+    uniqueID: 1787668543
+    locked: 0
+  - name: Bullets
+    uniqueID: 3623045725
+    locked: 0
+  - name: SpecialEffects
+    uniqueID: 4132069877
+    locked: 0
+  - name: DetailsTop
+    uniqueID: 2571512483
+    locked: 0
+  - name: UI
+    uniqueID: 1406725449
+    locked: 0
