@@ -407,10 +407,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textDisplay: {fileID: 2088926197}
   sentences:
-  - You won the Yom Kippur war!
-  - The next stage is Operation Erzab-19 - an operation by the Israeli Air Force
-    against the Syrian air defense in the First Lebanon War.
-  - You must destroy all the air defense devices, and watch out for the missiles.
+  - You won the Yom Kippur war! fense in the First Lebanon War.ab-19 - an operation
+    by the Israeli Air Force against the Syrian air defense in the First Lebanon
+    War. You must destroy all the air defense devices, and watch out for the missiles.
     Goodluck Soldier!
   typingSpeed: 0.05
   dialogCanvas: {fileID: 358414209}
@@ -620,7 +619,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 579, y: -91}
+  m_AnchoredPosition: {x: 573.28, y: -102.95}
   m_SizeDelta: {x: 226.4402, y: 52.644}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1805469051
@@ -660,8 +659,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 14, y: -175.40324}
-  m_SizeDelta: {x: -200, y: -525.1935}
+  m_AnchoredPosition: {x: -12.900024, y: -94.121994}
+  m_SizeDelta: {x: -146.2, y: -775.821}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1805469053
 MonoBehaviour:

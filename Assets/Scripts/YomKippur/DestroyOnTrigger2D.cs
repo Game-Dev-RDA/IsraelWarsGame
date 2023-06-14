@@ -16,7 +16,10 @@ public class DestroyOnTrigger2D : MonoBehaviour {
         if (other.tag == triggeringTag && enabled) {
             Destroy(this.gameObject);
             Destroy(other.gameObject);
-            SceneManager.LoadScene(scene);
+            if (scene!=""){
+                SceneManager.LoadScene(scene);
+            }
+            
         }
     }
 

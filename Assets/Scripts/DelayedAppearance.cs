@@ -6,6 +6,7 @@ public class DelayedAppearance : MonoBehaviour
     public float delay = 200f; // Delay in seconds
     public Renderer objectRenderer; // Reference to the object's Renderer component
     public GameObject explosion;
+    [SerializeField] string triggeringTag;
 
 
 	private Rigidbody2D rb;
@@ -25,12 +26,9 @@ public class DelayedAppearance : MonoBehaviour
         objectRenderer.enabled = true;
     }
 
-    // 	    private void OnTriggerEnter2D(Collider2D other) {
-    //     if (other.tag == triggeringTag && enabled) {
-	// 		Instantiate (explosion, rb.position, Quaternion.identity);
-    //         Destroy(this.gameObject);
-    //         // Destroy(other.gameObject);
+	    private void OnTriggerEnter2D(Collider2D other) {
+        if (other.tag == triggeringTag && enabled) {
+			Instantiate (explosion, rb.position, Quaternion.identity);
 			
-    //     }
-    // }
+        }}
 }
